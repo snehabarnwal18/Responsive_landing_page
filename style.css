@@ -1,0 +1,38 @@
+/* Basic styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav li {
+    margin: 0 15px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #d73333;
+    transition: color 0.3s ease;
+  }
+  /* Change background color and font color when scrolled */
+  nav.scrolled {
+    background-color: #555;
+  }
+  nav.scrolled a {
+    color: #ffcc00;
+  }
+  
